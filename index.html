@@ -9,9 +9,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
     <link href="css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"
+    <link rel="stylesheet" href="css/animate.min.css">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,7 +51,7 @@
     <header id="header" class="header">
         <div class="container">
             <di class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 wow bounceInLeft">
                     <h1>Responsive Web Design</h1>
                     <p>With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework. With Bootstrap 3, 
                         we've rewritten the project to be mobile friendly from the start. Instead of adding on optional mobile styles, 
@@ -60,7 +61,7 @@
                     <button class="btn btn-lg btn-primary">Buy Now</button>
                     <button class="btn btn-lg btn-success">View Detail</button>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6  wow bounceInRight">
                     <img src="images/responsive-web-design.gif" alt="Responsive Web Design">
                 </div>
             </di>
@@ -71,25 +72,25 @@
     <!-- Services -->
     <div id="services" class="services">
         <div class="container">
-            <h2>Services</h2>
-            <p>This is a dummy text just loaded to fill the space</p>
+            <h2 class="wow fadeInUp">Services</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.15s">This is a dummy text just loaded to fill the space</p>
             <div class="row">
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1s">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                     <h4>Web Design</h4>
                     <p>We provide you with good websites and you will enjoy working with us</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
                     <i class="fa fa-mobile" aria-hidden="true"></i>
                     <h4>Mobile Apps</h4>
                     <p>We provide you with good websites and you will enjoy working with us</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.6s">
                     <i class="fa fa-database" aria-hidden="true"></i>
                     <h4>Efficent Database Design</h4>
                     <p>We provide you with good websites and you will enjoy working with us</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
                     <i class="fa fa-bank" aria-hidden="true"></i>
                     <h4>Consulting</h4>
                     <p>We provide you with good websites and you will enjoy working with us</p>
@@ -103,9 +104,9 @@
     <div id="pricing" class="pricing">
         <div class="container">
             <div class="row">
-                <h2>Pricing</h2>
-                <p>This is a pricing section and we will see it</p>
-                <div class="col-lg-3 col-md-3">
+                <h2 class="wow fadeInUp">Pricing</h2>
+                <p class="wow fadeInUp" data-wow-delay="0.15s">This is a pricing section and we will see it</p>
+                <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="0.2s">
                     <div class="packages">
                         <h4>Bronze</h4>
                         <h1>19.99</h1>
@@ -121,7 +122,7 @@
                         <button class="btn btn-success">Get Started</button>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="0.4s">
                     <div class="packages">
                         <h4>Silver</h4>
                         <h1>19.99</h1>
@@ -137,7 +138,7 @@
                         <button class="btn btn-success">Get Started</button>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="0.6s">
                         <div class="packages">
                             <h4>Gold</h4>
                             <h1>29.99</h1>
@@ -153,7 +154,7 @@
                             <button class="btn btn-success">Get Started</button>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="0.8s">
                             <div class="packages">
                                 <h4>Platinum</h4>
                                 <h1>39.99</h1>
@@ -178,9 +179,9 @@
         <div id="team" class="team">
             <div class="container">
                 <div class="row">
-                    <h2>Meet our team</h2>
-                    <p>This is our Team Who are always working in Game of thrones :D</p>
-                    <div class="col-lg-3 col-md-3">
+                    <h2 class="wow fadeInUp">Meet our team</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.15s">This is our Team Who are always working in Game of thrones :D</p>
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
                       <img src="images/team/john.jpg" class="img-circle" alt="John Snow" />
                       <h4>John Snow</h4>  
                       <b>King of the north</b>
@@ -190,7 +191,7 @@
                       <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                       <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.6s">
                       <img src="images/team/arya.jpg" class="img-circle" alt="Arya Stark" />
                       <h4>Arya Stark</h4>  
                       <b>Faceless God</b>
@@ -200,7 +201,7 @@
                       <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                       <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
                       <img src="images/team/daenerys.jpg" class="img-circle" alt="Daenerys Targaryen" />
                       <h4>Daenerys Targaryen</h4>  
                       <b>Queen of everything</b>
@@ -210,7 +211,7 @@
                       <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                       <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
                       <img src="images/team/sansa.jpg" class="img-circle" alt="Sansa Stark" />
                       <h4>Sansa Stark</h4>  
                       <b>The dumb sister</b>
@@ -229,18 +230,18 @@
         <div id="client" class="clients">
             <div class="container">
                 <div class="row">
-                    <h2>Trusted By</h2>
-                    <p>These are the clients who are happy with our service.</p>
-                    <div class="col-lg-3 col-md-3">
+                    <h2 class="wow fadeInUp">Trusted By</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.15s">These are the clients who are happy with our service.</p>
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
                         <li><img src="images/company/c1.png" alt=""></li>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.6s">
                         <li><img src="images/company/c2.png" alt=""></li>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
                         <li><img src="images/company/c3.png" alt=""></li>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
                         <li><img src="images/company/c4.png" alt=""></li>
                     </div>
                 </div>
@@ -253,22 +254,22 @@
         <div id="contact" class="contact">
             <div class="container">
                 <div class="row">
-                    <h2>Contact</h2>
-                    <p>Please Be happy to contact us here below</p>
+                    <h2 class="wow fadeInUp">Contact</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.15s">Please Be happy to contact us here below</p>
                     <div class="col-lg-6 col-md-6">
-                        <div class="input-group input-group-lg">
+                        <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.6s">
                             <span class="input-group-addon" id="sizing-addon-1">
                                 <li class="fa fa-user" aria-hidden="true"></li>
                             </span>
                             <input placeholder="Full Name" type="text" class="form-control" aria-describedby=sizing-addon-1"" />
                         </div>
-                        <div class="input-group input-group-lg">
+                        <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.4s">
                             <span class="input-group-addon" id="sizing-addon-2">
                                 <li class="fa fa-envelope" aria-hidden="true"></li>
                             </span>
                             <input type="text" placeholder="Email Address" class="form-control" aria-describedby=sizing-addon-2"" />
                         </div>
-                        <div class="input-group input-group-lg">
+                        <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.4s">
                             <span class="input-group-addon" id="sizing-addon-3">
                                 <li class="fa fa-phone" aria-hidden="true"></li>
                             </span>
@@ -276,10 +277,10 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <div class="input-group">
+                        <div class="input-group wow fadeInUp" data-wow-delay="0.2s">
                             <textarea cols="80" rows="6" class="form-control"></textarea>
                         </div>
-                        <button class="btn btn-lg">Submit Your Message</button>
+                        <button class="btn btn-lg wow fadeInUp" data-wow-delay="0.2s">Submit Your Message</button>
                     </div>
                 </div>
             </div>
@@ -322,5 +323,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>
