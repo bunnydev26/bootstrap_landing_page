@@ -169,11 +169,11 @@ p {
     background-color: #3399ff;
 }
 
-pricing h2, pricing p {
+.pricing h2, .pricing p {
     color: #fff;
 }
 
-pricing p {
+.pricing p {
     padding-bottom: 40px;
 }
 
@@ -187,4 +187,24 @@ pricing p {
 
 .packages li {
     display: block;
+    padding: 5px;
+}
+
+.packages h4, .packages h1, .packages b {
+    color: #4c4c4c;
+}
+
+.packages p, .packages li {
+    color: #737373;
+}
+
+.packages button {
+    margin-top: 10px;
+}
+
+@media(max-width:768px) {
+    .pricing {
+        padding: 5px;
+    }
+
 }
